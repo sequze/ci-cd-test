@@ -1,5 +1,6 @@
 name: CI/CD for Project
-
+permissions:
+  contents: write
 on:
   push:
     branches: [ main ]
